@@ -1,0 +1,126 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body  {
+  display: flex;
+  align-items: center;
+  width: 375px;
+  font-family: 'SF Pro Text', sans-serif;
+  /* font-size: 16px; */
+  line-height: 26px;
+  justify-content: center;
+  background-color: #606060;
+}
+
+.screen {
+  background-color: white;
+  display: block;
+}
+
+.line1, .last_line{
+ border: 0.5px solid #BCBBC1 ;
+ margin-top: 5px;
+}
+
+.current_stop, .current_stop_name {
+  background-color: #ffffff;
+  display: inline;
+  font-weight: 200;
+  margin-left: 13px;
+}
+.current_stop{
+  font-family: 'Source Sans Pro';
+}
+.current_stop_name {
+ font-weight: 400;
+ color: #007AFF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.direction, .Out_of_service {
+  display: block;
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+
+.line {
+ border: 0.5px solid #BCBBC1 ;
+ margin-left: 45px;
+ margin-top: 5px;
+}
+
+.bus_name, .destination, .arrives, .time {
+  font-family: 'SF Pro Text';
+   display: inline-block;
+   padding-top: 5px;
+   font-size: 16px;
+}
+
+
+.bus {
+  font-weight: 200;
+  border-color: #000000;
+  border-width: 5px;
+}
+
+
+.bus_name {
+  font-weight: 350;
+  font-size: 14px;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background-color: #79C8A6;
+  padding-top: 4px;
+}
+
+.destination {
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+.time {
+  /* font-style: italic; */
+  font-weight: 350;
+  float: right;
+  padding-right: 10px;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+ .error {
+  color: orange;
+}
+
+.Out_of_service .bus_block {
+  background-color: #EAF9F2;
+}
+
+.toolbar img {
+  font-size: 10px;
+  display: inline-block;
+  margin-left: 42px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.toolbar {
+    background-color: #F8F8F8;
+}
+
+h1 {
+margin-left: 50%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
